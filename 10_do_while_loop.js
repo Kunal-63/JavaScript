@@ -6,7 +6,7 @@ let first = 0;
 let last = n.length - 1;
 let mid = 0;
 while (first <= last){
-    let mid=Math.floor((first + last)/2);
+    let mid=Number.parseInt((first + last)/2);
     if (x == n[mid]) {
         console.log("Found");
         break;
